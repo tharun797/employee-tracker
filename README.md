@@ -39,3 +39,34 @@ lib/
 assets/
 └── employees.json
 
+---
+
+## 🧪 How to Run
+
+1. Clone the repo
+2. Run `flutter pub get`
+3. Make sure the `employees.json` file is added to `assets/` and declared in `pubspec.yaml`:
+    ```yaml
+    flutter:
+      assets:
+        - assets/employees.json
+    ```
+4. Run the app with:
+    ```bash
+    flutter run
+    ```
+
+---
+
+## 📁 Sample Data Format (employees.json)
+
+```json
+{
+  "id": 1,
+  "name": "Arun Sharma",
+  "role": "Software Engineer",
+  "startDate": "2017-03-15",
+  "isActive": true
+}
+
+
