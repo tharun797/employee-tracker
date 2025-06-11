@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Arun Sharma",
+    "role": "Software Engineer",
+    "startDate": "15-03-2017",
+    "isActive": true
+  },
+  {
+    "id": 2,
+    "name": "Priya Menon",
+    "role": "UI/UX Designer",
+    "startDate": "01-07-2022",
+    "isActive": true
+  },
+  {
+    "id": 3,
+    "name": "Rahul Verma",
+    "role": "DevOps Engineer",
+    "startDate": "20-10-2016",
+    "isActive": false
+  },
+  {
+    "id": 4,
+    "name": "Neha Patil",
+    "role": "HR Manager",
+    "startDate": "05-01-2015",
+    "isActive": true
+  },
+  {
+    "id": 5,
+    "name": "Karthik Iyer",
+    "role": "Product Manager",
+    "startDate": "25-11-2020",
+    "isActive": true
+  },
+  {
+    "id": 6,
+    "name": "Divya Reddy",
+    "role": "Backend Developer",
+    "startDate": "30-06-2018",
+    "isActive": true
+  },
+  {
+    "id": 7,
+    "name": "Sanjay Singh",
+    "role": "QA Analyst",
+    "startDate": "10-02-2019",
+    "isActive": false
+  },
+  {
+    "id": 8,
+    "name": "Meera Nair",
+    "role": "Scrum Master",
+    "startDate": "12-09-2014",
+    "isActive": true
+  }
+]
