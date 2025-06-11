@@ -1,16 +1,29 @@
-# employee_tracker
+# Employee Tracker (Flutter + SQLite)
 
-A new Flutter project.
+A simple Flutter app that displays a list of employees and highlights those who have been active in the company for more than 5 years.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Features
 
-A few resources to get you started if this is your first Flutter project:
+- Loads employee data from a local JSON file on first launch
+- Stores data in a local SQLite database using `sqflite`
+- Uses `Riverpod` for state management
+- Flags employees in **green** if:
+  - They are active (`isActive == true`)
+  - They have been with the company for more than 5 years
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📦 Tech Stack
+
+- Flutter
+- SQLite (`sqflite` package)
+- Riverpod
+- JSON data loader
+- Clean architecture with modular code
+
+---
+
+## 🏗️ Project Structure
+
