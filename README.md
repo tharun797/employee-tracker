@@ -26,4 +26,16 @@ A simple Flutter app that displays a list of employees and highlights those who 
 ---
 
 ## 🏗️ Project Structure
+lib/
+├── main.dart
+├── models/
+│ └── employee.dart
+├── db/
+│ └── db_helper.dart
+├── providers/
+│ └── employee_provider.dart
+├── screens/
+│ └── home_screen.dart
+assets/
+└── employees.json
 
