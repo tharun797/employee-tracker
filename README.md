@@ -29,13 +29,13 @@ A simple Flutter app that displays a list of employees and highlights those who 
 lib/
 ├── main.dart
 ├── models/
-│ └── employee.dart
+│   └── employee.dart
 ├── db/
-│ └── db_helper.dart
+│   └── db_helper.dart
 ├── providers/
-│ └── employee_provider.dart
+│   └── employee_provider.dart
 ├── screens/
-│ └── home_screen.dart
+│   └── home_screen.dart
 assets/
 └── employees.json
 
